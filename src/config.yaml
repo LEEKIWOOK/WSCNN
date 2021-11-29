@@ -1,4 +1,4 @@
-Description: "hierchical_lstm_atttention"
+Description: "Weakly suplervised convolutional neural network"
 DATA:
   out_dir: ./output
   data_config: ./src/data/data_config.yaml

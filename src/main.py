@@ -20,7 +20,7 @@ import torch.optim as optim
 
 from data.data_manager import DataWrapper, DataManager
 
-from modeling.hierarchical_lstm_attn import HLAttn
+from modeling.wscnnlstm import WSCNNLSTM
 from engine.train import Train
 from utils import *
 
@@ -77,7 +77,7 @@ class Runner:
 
     def init_model(self, len):
         # Create model
-        self.framework = HLAttn(len).to(self.device)
+        self.framework = WSCNNLSTM(len).to(self.device)
 
         self.optimizers = optim.SGD(
             self.framework.parameters(), lr=1e-2, momentum=0.9, weight_decay=1e-4
