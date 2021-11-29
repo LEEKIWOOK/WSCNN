@@ -1,0 +1,12 @@
+Description: "hierchical_lstm_atttention"
+DATA:
+  out_dir: ./output
+  data_config: ./src/data/data_config.yaml
+MODEL:
+  gamma: 0.01
+  eta: 50
+  optimizer_lr: 1e-3
+  weight_decay: 0.95 #0.95
+  batch: 256
+  epoch: 500 #wang -> 500
+  earlystop: 20

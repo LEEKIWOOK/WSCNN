@@ -1,0 +1,15 @@
+DATA:
+  in_dir: /home/kwlee/Projects_gflas/Team_BI/Projects/1.Knockout_project/Data/Finalsets/Data
+
+  cas9_wt_kim: Cas9_wt_kim_parsing.pkl
+  cas9_wt_wang: Cas9_wt_wang_parsing.pkl
+  cas9_wt_xiang: Cas9_wt_xiang_parsing.pkl
+  cas9_hf_wang: Cas9_HF1_wang_parsing.pkl
+  cas9_esp_wang: Cas9_esp_wang_parsing.pkl
+  cas9_hct116_hart: Cas9_hct116_hart_parsing.pkl
+  cas9_hl60_wang: Cas9_hl60_wang_parsing.pkl
+  cas9_hek293t_doench: Cas9_hek293t_doench_parsing.pkl
+  cas9_hela_hart: Cas9_hela_hart_parsing.pkl
+  #cas12_wt_kim: Cas12a_wt_kim.tsv
+
+  seed: 7
