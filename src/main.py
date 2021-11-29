@@ -20,7 +20,7 @@ import torch.optim as optim
 
 from data.data_manager import DataWrapper, DataManager
 
-from modeling.wscnnlstm import WSCNNLSTM
+from modeling.wscnnlstm_v2 import WSCNNLSTM
 from engine.train import Train
 from utils import *
 
