@@ -1,2 +1,3 @@
-# WSCNN
-Crispr efficiency prediction using weakly supervised convolutional neural network
+Analysis of DNA sequence
+- How to use : Crispr efficiency prediction, DNA/RNA motif mining
+- Methods : Weakly supervised convolutional neural network
